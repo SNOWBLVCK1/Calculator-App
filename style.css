@@ -1,0 +1,74 @@
+table{
+    color: #333;
+    text-align: center;
+    border-collapse: collapse;
+    font: normal 3em arial, Helvetica, sans-serif;
+
+    
+}
+
+.digitButton{
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.digitButton:active{
+    background-color: blue;
+    color: white;
+}
+
+.operatorButton{
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.digitButton:active{
+    background-color: #d0d0d0;
+    color: white;
+}
+
+.ACButton{
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.ACButton:active{
+    background-color: red;
+    color: white;
+}
+
+td{
+    width: 25vw;
+    background-color: #f0f0f0;
+    color: #333;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+td:active{
+    background-color: green;
+    color: white;
+}
+
+td[colspan="4"]{
+    width: 100%;
+}
+
+table tr:last-child td{
+    border-top: none;
+}
+
+tr{
+    height: 16.02vh;
+    background-color: #d0d0d0
+}
+
+#inputBox{
+    background-color: #d0d0d0 ;
+    text-align: right;
+    width: 100%;
+    font-size: 2em;
+    color: #f0f0f0;
+    border: 0px;
+}
